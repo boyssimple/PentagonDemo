@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1325A3285F3ECC990E5F29C0 /* libPods-PentagonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDBF8F66807725771C781A3 /* libPods-PentagonDemo.a */; };
+		EEC2BD951F0E0299007EAADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BD941F0E0299007EAADF /* main.m */; };
+		EEC2BD981F0E0299007EAADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BD971F0E0299007EAADF /* AppDelegate.m */; };
+		EEC2BDA01F0E0299007EAADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC2BD9F1F0E0299007EAADF /* Assets.xcassets */; };
+		EEC2BDAC1F0E02B3007EAADF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BDAB1F0E02B3007EAADF /* MainViewController.m */; };
+		EEC2BDB61F0E0518007EAADF /* UIColor+KDS_HexToUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BDB31F0E0518007EAADF /* UIColor+KDS_HexToUIColor.m */; };
+		EEC2BDB71F0E0518007EAADF /* UIView+KDS_FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BDB51F0E0518007EAADF /* UIView+KDS_FrameHelper.m */; };
+		EEC2BDBC1F0E08A9007EAADF /* UIBezierPath+Pentagon.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BDBB1F0E08A9007EAADF /* UIBezierPath+Pentagon.m */; };
+		EEC2BDBF1F0E1CB7007EAADF /* CAShapeLayer+Pentagon.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BDBE1F0E1CB7007EAADF /* CAShapeLayer+Pentagon.m */; };
+		EEC2BDC21F0E2986007EAADF /* XQQPentagonView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BDC11F0E2986007EAADF /* XQQPentagonView.m */; };
+		EEC2BDC51F0E3954007EAADF /* XQQCountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BDC41F0E3954007EAADF /* XQQCountLabel.m */; };
+		EEC2BDC91F0E4195007EAADF /* XQQPentagonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC2BDC81F0E4195007EAADF /* XQQPentagonModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DDBF8F66807725771C781A3 /* libPods-PentagonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PentagonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFACDE9BBC7C325D0DC453EF /* Pods-PentagonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PentagonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PentagonDemo/Pods-PentagonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC2BD901F0E0299007EAADF /* PentagonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PentagonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC2BD941F0E0299007EAADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEC2BD961F0E0299007EAADF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEC2BD971F0E0299007EAADF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEC2BD9F1F0E0299007EAADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEC2BDA41F0E0299007EAADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC2BDAA1F0E02B3007EAADF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EEC2BDAB1F0E02B3007EAADF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EEC2BDB21F0E0518007EAADF /* UIColor+KDS_HexToUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KDS_HexToUIColor.h"; sourceTree = "<group>"; };
+		EEC2BDB31F0E0518007EAADF /* UIColor+KDS_HexToUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KDS_HexToUIColor.m"; sourceTree = "<group>"; };
+		EEC2BDB41F0E0518007EAADF /* UIView+KDS_FrameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KDS_FrameHelper.h"; sourceTree = "<group>"; };
+		EEC2BDB51F0E0518007EAADF /* UIView+KDS_FrameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KDS_FrameHelper.m"; sourceTree = "<group>"; };
+		EEC2BDB91F0E05D1007EAADF /* PentagonPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PentagonPCH.pch; sourceTree = "<group>"; };
+		EEC2BDBA1F0E08A9007EAADF /* UIBezierPath+Pentagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Pentagon.h"; sourceTree = "<group>"; };
+		EEC2BDBB1F0E08A9007EAADF /* UIBezierPath+Pentagon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Pentagon.m"; sourceTree = "<group>"; };
+		EEC2BDBD1F0E1CB7007EAADF /* CAShapeLayer+Pentagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Pentagon.h"; sourceTree = "<group>"; };
+		EEC2BDBE1F0E1CB7007EAADF /* CAShapeLayer+Pentagon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Pentagon.m"; sourceTree = "<group>"; };
+		EEC2BDC01F0E2986007EAADF /* XQQPentagonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQPentagonView.h; sourceTree = "<group>"; };
+		EEC2BDC11F0E2986007EAADF /* XQQPentagonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQPentagonView.m; sourceTree = "<group>"; };
+		EEC2BDC31F0E3954007EAADF /* XQQCountLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQCountLabel.h; sourceTree = "<group>"; };
+		EEC2BDC41F0E3954007EAADF /* XQQCountLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQCountLabel.m; sourceTree = "<group>"; };
+		EEC2BDC71F0E4195007EAADF /* XQQPentagonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQPentagonModel.h; sourceTree = "<group>"; };
+		EEC2BDC81F0E4195007EAADF /* XQQPentagonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQPentagonModel.m; sourceTree = "<group>"; };
+		FEAC48CC3788732D3E91E8E5 /* Pods-PentagonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PentagonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PentagonDemo/Pods-PentagonDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC2BD8D1F0E0299007EAADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1325A3285F3ECC990E5F29C0 /* libPods-PentagonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A2ECC49E47D1D5135274829 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFACDE9BBC7C325D0DC453EF /* Pods-PentagonDemo.debug.xcconfig */,
+				FEAC48CC3788732D3E91E8E5 /* Pods-PentagonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		724564D042D4E504EBC687D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DDBF8F66807725771C781A3 /* libPods-PentagonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEC2BD871F0E0299007EAADF = {
+			isa = PBXGroup;
+			children = (
+				EEC2BD921F0E0299007EAADF /* PentagonDemo */,
+				EEC2BD911F0E0299007EAADF /* Products */,
+				6A2ECC49E47D1D5135274829 /* Pods */,
+				724564D042D4E504EBC687D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC2BD911F0E0299007EAADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2BD901F0E0299007EAADF /* PentagonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC2BD921F0E0299007EAADF /* PentagonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2BDAD1F0E035B007EAADF /* Pentagon */,
+				EEC2BD961F0E0299007EAADF /* AppDelegate.h */,
+				EEC2BD971F0E0299007EAADF /* AppDelegate.m */,
+				EEC2BDAA1F0E02B3007EAADF /* MainViewController.h */,
+				EEC2BDAB1F0E02B3007EAADF /* MainViewController.m */,
+				EEC2BD931F0E0299007EAADF /* Supporting Files */,
+				EEC2BDB91F0E05D1007EAADF /* PentagonPCH.pch */,
+			);
+			path = PentagonDemo;
+			sourceTree = "<group>";
+		};
+		EEC2BD931F0E0299007EAADF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2BD9F1F0E0299007EAADF /* Assets.xcassets */,
+				EEC2BDA41F0E0299007EAADF /* Info.plist */,
+				EEC2BD941F0E0299007EAADF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEC2BDAD1F0E035B007EAADF /* Pentagon */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2BDC61F0E417D007EAADF /* Model */,
+				EEC2BDAE1F0E035B007EAADF /* Category */,
+				EEC2BDB11F0E035B007EAADF /* View */,
+			);
+			path = Pentagon;
+			sourceTree = "<group>";
+		};
+		EEC2BDAE1F0E035B007EAADF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2BDB21F0E0518007EAADF /* UIColor+KDS_HexToUIColor.h */,
+				EEC2BDB31F0E0518007EAADF /* UIColor+KDS_HexToUIColor.m */,
+				EEC2BDB41F0E0518007EAADF /* UIView+KDS_FrameHelper.h */,
+				EEC2BDB51F0E0518007EAADF /* UIView+KDS_FrameHelper.m */,
+				EEC2BDBA1F0E08A9007EAADF /* UIBezierPath+Pentagon.h */,
+				EEC2BDBB1F0E08A9007EAADF /* UIBezierPath+Pentagon.m */,
+				EEC2BDBD1F0E1CB7007EAADF /* CAShapeLayer+Pentagon.h */,
+				EEC2BDBE1F0E1CB7007EAADF /* CAShapeLayer+Pentagon.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EEC2BDB11F0E035B007EAADF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2BDC01F0E2986007EAADF /* XQQPentagonView.h */,
+				EEC2BDC11F0E2986007EAADF /* XQQPentagonView.m */,
+				EEC2BDC31F0E3954007EAADF /* XQQCountLabel.h */,
+				EEC2BDC41F0E3954007EAADF /* XQQCountLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEC2BDC61F0E417D007EAADF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2BDC71F0E4195007EAADF /* XQQPentagonModel.h */,
+				EEC2BDC81F0E4195007EAADF /* XQQPentagonModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEC2BD8F1F0E0299007EAADF /* PentagonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC2BDA71F0E0299007EAADF /* Build configuration list for PBXNativeTarget "PentagonDemo" */;
+			buildPhases = (
+				F6164C76C815BDCDD09C5735 /* [CP] Check Pods Manifest.lock */,
+				EEC2BD8C1F0E0299007EAADF /* Sources */,
+				EEC2BD8D1F0E0299007EAADF /* Frameworks */,
+				EEC2BD8E1F0E0299007EAADF /* Resources */,
+				D172F5739ECC6AD922B1F683 /* [CP] Embed Pods Frameworks */,
+				2EF4732A7A2B3E7F51F2C497 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PentagonDemo;
+			productName = PentagonDemo;
+			productReference = EEC2BD901F0E0299007EAADF /* PentagonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC2BD881F0E0299007EAADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Camelot.com;
+				TargetAttributes = {
+					EEC2BD8F1F0E0299007EAADF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G2395R32DJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEC2BD8B1F0E0299007EAADF /* Build configuration list for PBXProject "PentagonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC2BD871F0E0299007EAADF;
+			productRefGroup = EEC2BD911F0E0299007EAADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC2BD8F1F0E0299007EAADF /* PentagonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC2BD8E1F0E0299007EAADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC2BDA01F0E0299007EAADF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EF4732A7A2B3E7F51F2C497 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PentagonDemo/Pods-PentagonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D172F5739ECC6AD922B1F683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PentagonDemo/Pods-PentagonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6164C76C815BDCDD09C5735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC2BD8C1F0E0299007EAADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC2BD981F0E0299007EAADF /* AppDelegate.m in Sources */,
+				EEC2BDBC1F0E08A9007EAADF /* UIBezierPath+Pentagon.m in Sources */,
+				EEC2BDAC1F0E02B3007EAADF /* MainViewController.m in Sources */,
+				EEC2BDC51F0E3954007EAADF /* XQQCountLabel.m in Sources */,
+				EEC2BDC91F0E4195007EAADF /* XQQPentagonModel.m in Sources */,
+				EEC2BDB71F0E0518007EAADF /* UIView+KDS_FrameHelper.m in Sources */,
+				EEC2BDBF1F0E1CB7007EAADF /* CAShapeLayer+Pentagon.m in Sources */,
+				EEC2BDC21F0E2986007EAADF /* XQQPentagonView.m in Sources */,
+				EEC2BD951F0E0299007EAADF /* main.m in Sources */,
+				EEC2BDB61F0E0518007EAADF /* UIColor+KDS_HexToUIColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEC2BDA51F0E0299007EAADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEC2BDA61F0E0299007EAADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC2BDA81F0E0299007EAADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFACDE9BBC7C325D0DC453EF /* Pods-PentagonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G2395R32DJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PentagonDemo/PentagonPCH.pch;
+				INFOPLIST_FILE = PentagonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csc108.com.cn.PentagonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEC2BDA91F0E0299007EAADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAC48CC3788732D3E91E8E5 /* Pods-PentagonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G2395R32DJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PentagonDemo/PentagonPCH.pch;
+				INFOPLIST_FILE = PentagonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csc108.com.cn.PentagonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC2BD8B1F0E0299007EAADF /* Build configuration list for PBXProject "PentagonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC2BDA51F0E0299007EAADF /* Debug */,
+				EEC2BDA61F0E0299007EAADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC2BDA71F0E0299007EAADF /* Build configuration list for PBXNativeTarget "PentagonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC2BDA81F0E0299007EAADF /* Debug */,
+				EEC2BDA91F0E0299007EAADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC2BD881F0E0299007EAADF /* Project object */;
+}

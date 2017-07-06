@@ -1,0 +1,37 @@
+//
+//  PentagonPCH.pch
+//  PentagonDemo
+//
+//  Created by xuqinqiang on 2017/7/6.
+//  Copyright © 2017年 Camelot.com. All rights reserved.
+//
+
+#ifndef PentagonPCH_pch
+#define PentagonPCH_pch
+
+#ifdef __OBJC__
+
+#ifdef DEBUG
+#define NSLog(...)  NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
+
+
+
+#define iPhoneWidth  [UIScreen mainScreen].bounds.size.width
+#define iPhoneHeight [UIScreen mainScreen].bounds.size.height
+
+
+
+#import "UIView+KDS_FrameHelper.h"
+#import "UIColor+KDS_HexToUIColor.h"
+#import "UIBezierPath+Pentagon.h"
+#import "CAShapeLayer+Pentagon.h"
+
+
+
+#endif
+#endif /* PentagonPCH_pch */
